@@ -1,0 +1,32 @@
+.header {
+    height: 75px;   
+    display: flex;
+    align-items: center;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    width: 175px;
+    height: 30px;
+}
+
+.header__menu {
+    width: 680px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__info {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+}
