@@ -1,5 +1,5 @@
 .header {
-    height: 75px;   
+    height: 93px;   
     display: flex;
     align-items: center;
 }
@@ -15,14 +15,34 @@
     height: 30px;
 }
 
-.header__menu {
-    width: 680px;
+.header__item {
+    font-size: 12px;
+    line-height: 35px;
+    font-weight: 600;
+    text-transform: uppercase;        
+}
+
+.header__item + .header__item {
+    margin-left: 25px;
+}
+
+.header__link {
+    transition: all 0.3s ease;
+
+    &:hover {        
+        color: #79b51c;
+        border-bottom: 3px solid #79b51c;   
+    }
 }
 
 .header__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header__phone {
+    margin-right: 35px;
 }
 
 .header__info {
