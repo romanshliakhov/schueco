@@ -1,0 +1,15 @@
+.content {
+    margin: 100px 0;
+}
+
+.content__inner {
+    display: flex;  
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.content__img {
+    max-height: 453px;
+    max-width: 838px;
+    background-repeat: no-repeat;
+}
