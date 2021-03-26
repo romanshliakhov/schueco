@@ -27,7 +27,7 @@
     font-weight: 300;
 }
 
-.slider__btn {
+.slider__button {
     display: inline-block;  
     margin-top: 50px;  
     font-weight: 600;   
@@ -35,3 +35,22 @@
     background: #79b51c;
     border-radius: 5px;           
 }
+
+.slick__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+
+.slick__prev {
+    left: 26px;
+}
+
+.slick__next {
+    right: 38px;
+}
+
+.slick__prev::before,
+.slick__next::before {    
+    display: none;
+} 

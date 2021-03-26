@@ -28,3 +28,12 @@ $(document).mouseup(function (e) {
       select.forEach(s => s.classList.remove('is-active'));
   }
 });
+
+$(function(){
+    $('.slider__inner').slick({
+        prevArrow: '<button type="button" class="slick__btn slick__prev"><img src="img/icons/previous.png" alt=""></button>',
+        nextArrow: '<button type="button" class="slick__btn slick__next"><img src="img/icons/next.png" alt=""></button>',
+        autoplay: 3000,
+        fade: true                      
+    });   
+});
