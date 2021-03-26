@@ -4,8 +4,7 @@
 
 .content__inner {
     display: flex;  
-    justify-content: space-around;  
-    align-items: center;
+    justify-content: space-around;      
 }
 
 .content__img {
@@ -13,3 +12,24 @@
     max-width: 838px;
     background-repeat: no-repeat;
 }
+
+.content__box {    
+    padding: 10px;
+    margin-right: 70px;
+}
+
+.content__header {
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #79b51c;
+    text-transform: uppercase;
+}
+
+.content__subheader {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
