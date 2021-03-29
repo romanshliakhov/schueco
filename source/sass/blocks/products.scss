@@ -1,0 +1,9 @@
+.products__inner {
+    display: flex;
+    flex-direction: column;    
+}
+
+.products__item {
+    display: flex;
+    justify-content: center;
+}

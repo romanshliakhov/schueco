@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  padding: 0;  
+  padding: 0;
   font-family: 'OpenSans', sans-serif;
-  font-weight: 400; 
-  font-size: 16px; 
-  line-height: 30px;    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
   color: #000;
 }
 
@@ -86,7 +86,7 @@ a {
 
 .container-fluid {
   width: 1700px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .phone {
@@ -94,4 +94,16 @@ a {
   line-height: 35px;
   font-weight: 700;
   color: #79b51c;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #79b51c;
+  text-transform: uppercase;
+}
+
+.subtitle {
+
 }
