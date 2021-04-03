@@ -11,7 +11,7 @@
     text-transform: uppercase;
     color: #fff;
     position: absolute;
-    padding-top: 95px;    
+    padding-top: 95px;
     z-index: 5;
 }
 
@@ -28,29 +28,30 @@
 }
 
 .slider__button {
-    display: inline-block;  
-    margin-top: 50px;  
-    font-weight: 600;   
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: 600;
     padding: 8px 31px;
     background: #79b51c;
-    border-radius: 5px;           
+    border-radius: 5px;
 }
 
-.slick__btn {
+.slick-arrow {
     position: absolute;
-    top: 50%;
-    z-index: 5;
+    top: 40%;
+    z-index: 1;
+    background-color: #000000;
+    width: 70px;
+    height: 80px;
+    opacity: 65%;
 }
 
-.slick__prev {
-    left: 26px;
+.slick-prev {
+    left: 0;
+    background-image: url(../img/icons/left-arrow.svg);
 }
 
-.slick__next {
-    right: 38px;
+.slick-next {
+    right: 0;
+    background-image: url(../img/icons/right-arrow.svg);
 }
-
-.slick__prev::before,
-.slick__next::before {    
-    display: none;
-} 

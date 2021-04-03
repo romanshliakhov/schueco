@@ -30,9 +30,7 @@ $(document).mouseup(function (e) {
 });
 
 $(function(){
-    $('.slider__inner').slick({
-        prevArrow: '<button type="button" class="slick__btn slick__prev"><img src="img/background/prew.png" alt=""></button>',
-        nextArrow: '<button type="button" class="slick__btn slick__next"><img src="img/background/next.png" alt=""></button>',
+    $('.slider__inner').slick({        
         autoplay: 3000,
         fade: true                      
     });   
