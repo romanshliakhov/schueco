@@ -39,9 +39,12 @@ $(function(){
 });
 
 $(function(){
-    $('.popular__slider-inner').slick({
-        arrows: false,
-        autoplay: 3000,
-        fade: true                      
+    $('.popular__slider').slick({
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		speed: 1000,
+		autoplaySpeed: 3000,
+		arrows: false,
+		dots: true                      
     });   
 });

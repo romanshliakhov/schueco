@@ -14,10 +14,34 @@
     text-align: end;
 }
 
-.popular__slider-inner {
+.popular__slider {
     margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
+}
+
+.slick-dots {
+    text-align: center;
+    margin: 50px;
+
+    li {
+        display: inline-block;
+        margin: 0 35px;        
+
+        &.slick-active {
+            button {
+                background-color: #000;
+            }
+        }
+    }
+
+    button {        
+        background-color: #d9d9d9;
+        border: none;
+        font-size: 0;
+        width: 55px;
+        height: 5px;
+        cursor: pointer;
+        outline: none;
+    }
 }
 
 .popular__product-name {
@@ -25,15 +49,8 @@
     font-weight: 700;
 }
 
-.popular__product {
-    display: flex; 
-    flex-direction: column;
-    max-width: 550px;
-}
-
 .popular__product-inner {
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
     align-items: center;
     margin-top: 20px;
 }
