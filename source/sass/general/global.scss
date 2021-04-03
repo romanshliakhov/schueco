@@ -58,7 +58,7 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #000;
+  color: #fff;
 
   &:visited {
     color: inherit;
@@ -109,4 +109,13 @@ a {
   line-height: 40px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;  
+  margin-top: 50px;  
+  font-weight: 600;   
+  padding: 8px 31px;
+  background: #79b51c;
+  border-radius: 5px; 
 }

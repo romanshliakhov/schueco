@@ -1,0 +1,35 @@
+.catalogue {
+    background-image: url(../img/background/catalogue.jpg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 790px;
+    position: relative;
+}
+
+.catalogue__info {
+    position: absolute;    
+    min-width: 650px;
+    min-height: 400px;
+    background-color: #000;
+    color: #fff;
+    left: 15%;
+    top: 18%;
+    opacity: 65%;
+    padding-top: 75px;
+    padding-left: 72px;
+    text-transform: uppercase;
+}
+
+.catalogue__title {
+    font-size: 20px;
+    line-height: 40px;    
+    font-weight: 600;    
+}
+
+.catalogue__descr {
+    max-width: 431px;    
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 300;    
+}
+
