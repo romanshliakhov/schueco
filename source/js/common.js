@@ -37,3 +37,11 @@ $(function(){
         fade: true                      
     });   
 });
+
+$(function(){
+    $('.popular__slider-inner').slick({
+        arrows: false,
+        autoplay: 3000,
+        fade: true                      
+    });   
+});

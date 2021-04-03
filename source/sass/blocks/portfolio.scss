@@ -1,23 +1,22 @@
 .portfolio {
     background-image: url(../img/background/portfolio.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-height: 434px;
+    background-position: center;    
+    min-height: 434px;
 }
 
 .portfolio__inner {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
 }
 
 .portfolio__info {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    
+    align-items: center;    
+    margin-top: 87px;
 }
 
 .portfolio__box {
@@ -32,8 +31,7 @@
     color: #79b51c;
 }
 
-.portfolio__descr {
-    max-width: 730px;
+.portfolio__descr {    
     color: #c8c8c8;
 }
 
