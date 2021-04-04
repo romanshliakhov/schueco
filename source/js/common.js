@@ -30,7 +30,9 @@ $(document).mouseup(function (e) {
 });
 
 $(function(){
-    $('.slider__inner').slick({        
+    $('.slider__inner').slick({
+		prevArrow: '.slider__arrow-prev',        
+		nextArrow: '.slider__arrow-next',        
         autoplay: 3000,
         fade: true                      
     });   
