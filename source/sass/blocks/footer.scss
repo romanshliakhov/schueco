@@ -1,6 +1,49 @@
 .footer__top {
     background-color: #fafafa;
+    position: relative;
 }
+
+.footer__form {
+    position: absolute;
+    width: 675px;
+    height: 460px;
+    background-color: #000;
+    bottom: 10%;
+    right: 0;
+    padding: 60px 80px;
+    color: #fff;
+}
+
+.form__title {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form__schedule {
+    font-size: 15px;
+    line-height: 40px;
+    color: #5b5b5b;
+}
+
+.footer__form-button {   
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    padding: 8px 45px;
+    display: flex;
+    align-items: center;          
+    
+    svg {
+        width: 23px;
+        fill: #fff;
+        margin-left: 15px;
+    }
+}
+
+
 
 .footer__nav {
     display: flex;
@@ -18,11 +61,11 @@
 }
 
 .footer__nav-item {
-    margin-top: 40px;
+    margin-top: 25px;
     line-height: 35px;
 }
 
-.footer__nav-list {
+.footer__nav-link {
     transition: 0.5s ease;
     
     &:hover {
@@ -31,7 +74,7 @@
 }
 
 .footer__nav-list+.footer__nav-list {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .footer__bottom {
