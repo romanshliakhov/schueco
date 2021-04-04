@@ -1,8 +1,7 @@
 .portfolio {
     background-image: url(../img/background/portfolio.jpg);
     background-repeat: no-repeat;
-    background-position: center;    
-    min-height: 434px;
+    margin-bottom: 180px;      
 }
 
 .portfolio__inner {
@@ -35,6 +34,48 @@
     color: #c8c8c8;
 }
 
+.portfolio__works {
+    margin-top: 92px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.portfolio__work {
+    max-width: 375px;
+    max-height: 365px;
+    margin-right: 18px;
+    position: relative;
+
+    &:last-child {
+        max-width: 769px;
+    }
+}
+
+.portfolio__work-link {
+    position: absolute;
+    z-index: 1;
+    bottom: 8%;
+    width: 350px;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    align-items: center; 
+    transition: 0.3s ease;
+
+    &:hover {
+        background-color: #79b51c;
+    }
+}
+
+.portfolio__work-title {
+    margin-left: 40px;
+    max-width: 210px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .portfolio__catalogue {  
     display: flex;
     justify-content: center;    
@@ -47,4 +88,5 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    margin-top: 45px;
 }
