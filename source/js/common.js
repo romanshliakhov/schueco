@@ -39,6 +39,18 @@ $(function(){
 });
 
 $(function(){
+    $('.galery__slider-inner').slick({
+		// prevArrow: '.galery__arrow-prev',        
+		// nextArrow: '.galery__arrow-next',
+		arrows: true,		       
+        autoplay: 3000,
+        fade: true,		
+		slidesToShow: 5,
+		slidesToScroll: 1,                    
+    });   
+});
+
+$(function(){
     $('.popular__slider').slick({
 		slidesToShow: 2,
 		slidesToScroll: 2,
