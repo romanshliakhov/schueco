@@ -16,14 +16,12 @@
         background-image: url(../img/icons/arrow-down.svg);
         background-repeat: no-repeat;
         top: 5px;
-        right: -16px;    
-        fill: #79b51c;
+        right: -16px;  
         width: 8px;
         height: 8px;
         z-index: 1;
     }
 }
-
 
 .select.is-active .select__body {
     display: block;

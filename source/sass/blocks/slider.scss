@@ -2,24 +2,23 @@
     position: relative;
 }
 
-.slider__item {
+.slider__img {
     min-height: 650px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    position: relative;
+    background-size: cover;
 }
 
 .slider__info {
     max-width: 400px;
     text-transform: uppercase;
     color: #fff;
-    position: absolute;
-    padding-top: 95px;
-    z-index: 5;
+    position: absolute;  
+    top: 16%;
+    left: 15%;    
 }
 
-.slider__title {
+.slider__title {    
     font-size: 20px;
     line-height: 40px;
     font-weight: 600;
@@ -28,7 +27,7 @@
 .slider__descr {
     font-size: 30px;
     line-height: 45px;
-    font-weight: 300;
+    font-weight: 300;    
 }
 
 .slider__button {
@@ -52,6 +51,7 @@
     justify-content: center;
     cursor: pointer;
     outline-color: none;
+    z-index: 2;
 
     svg {
         width: 22px;

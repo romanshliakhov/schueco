@@ -57,7 +57,7 @@ button {
 a {
   display: inline-block;
   text-decoration: none;
-  cursor: pointer;  
+  cursor: pointer;
   color: #000;
   background-color: transparent;
 
@@ -67,7 +67,7 @@ a {
 }
 
 input {
-  width: 100%;  
+  width: 100%;
   border: none;
   outline: none;
 }
@@ -82,16 +82,23 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-::-webkit-input-placeholder { /* WebKit browsers */
+::-webkit-input-placeholder {
+  /* WebKit browsers */
   color: #fff;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
   color: #fff;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
   color: #fff;
 }
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
   color: #fff;
 }
 
@@ -146,11 +153,12 @@ input[type=number] {
 }
 
 .button {
-  display: inline-block;  
-  margin-top: 50px;  
-  font-weight: 600;   
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: 600;
   padding: 8px 31px;
   background: #79b51c;
-  border-radius: 5px; 
+  border-radius: 5px;
   color: #fff;
 }
+
