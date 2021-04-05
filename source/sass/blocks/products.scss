@@ -18,6 +18,9 @@
 
     &:nth-child(even) {
         flex-direction: row-reverse;
+        .products__title {
+
+        }
     }
 }
 
@@ -30,12 +33,25 @@
 }
 
 .products__info {
+    padding-top: 20px;
+
     display: flex;
     flex-direction: column;
     flex-grow: 0.2;
     margin-left: 50px;
     position: relative;   
     justify-content: flex-end; 
+    &:hover {
+        .products__title {
+            background-color: #8dc03e;
+        }
+        .products__link {
+            color: #8dc03e;
+            svg path {
+                fill: currentColor;
+            }
+        }
+    }
 }
 
 .products__info-reverse {
@@ -45,26 +61,24 @@
 }
 
 .products__title { 
-    position: absolute;            
-    background-color: #000;
+    margin-left: -83px;
+    background-color: rgba(0, 0, 0, 0.8);
     width: 450px;
     height: 80px;
-    top: 7%;
-    left: -13%;
     display: inline-flex;
     justify-content: center;  
     align-items: center;  
     transition: 0.4s all;
     cursor: pointer;
-    
+    margin-bottom: 20px;
     &:hover {
         background-color: #8dc03e;
     }
 }
 
 .products__title-reverse {
-    left: 0;
-    right: -13%;    
+    margin-left: initial;
+    margin-right: -100px;
 }
 
 .products__title-link {
@@ -72,7 +86,7 @@
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase; 
-    color: #fff;
+    color: #fff !important;
     margin-right: 50px;
 }
 
@@ -84,7 +98,7 @@
     color: #777;
     font-size: 14px;
     line-height: 25px;    
-    margin-top: 40px;
+    
 }
 
 .products__link {

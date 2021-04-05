@@ -58,12 +58,12 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #000;
+  color: inherit;
   background-color: transparent;
 
-  &:visited {
-    color: inherit;
-  }
+  // &:visited {
+  //   color: inherit;
+  // }
 }
 
 input {

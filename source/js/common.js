@@ -40,13 +40,13 @@ $(function(){
 
 $(function(){
     $('.galery__slider-inner').slick({
-		// prevArrow: '.galery__arrow-prev',        
-		// nextArrow: '.galery__arrow-next',
+		prevArrow: '.galery__arrow-prev',        
+		nextArrow: '.galery__arrow-next',
 		arrows: true,		       
-        autoplay: 3000,
-        fade: true,		
+        autoplay: false,
 		slidesToShow: 5,
-		slidesToScroll: 1,                    
+		slidesToScroll: 1, 
+		Infinity:false,   
     });   
 });
 

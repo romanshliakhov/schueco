@@ -15,15 +15,12 @@
 
 .galery__slider {
     margin-top: 70px;    
-    position: relative;
+    position: relative;    
 }
 
-.galery__slider-item {
-    min-height: 250px;    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+// .galery__slider-inner {
+//     height: 350px;
+// }
 
 .galery__arrow {
     position: absolute;
@@ -50,4 +47,33 @@
 
 .galery__arrow-next {
     right: 0%;
+}
+
+.galery__image {
+    max-width: 350px;
+    outline:none;
+    transition: all .4s;
+    img {
+        max-width: 100%;
+        max-height: 250px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        object-fit: cover;
+        transition: all .4s;
+    }
+}
+
+.galery__image.slick-current + .galery__image {
+    width: 474px;
+    height: 338px;
+    img {
+        max-height: 100%;
+    }
+}
+
+.galery__img {
+    height: 338px;
+    display: flex;
+    align-items: center;
 }
