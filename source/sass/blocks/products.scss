@@ -5,14 +5,21 @@
 .products__inner {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
+    
+   
 }
 
 .products__item {
     width: 100%;
     display: flex;     
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 50px;    
+
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+        text-align: end;
+    }
 }
 
 .products__image {
@@ -21,6 +28,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.products__info {    
+    flex-grow: 0.3;
 }
 
 .products__category {    
