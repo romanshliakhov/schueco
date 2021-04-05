@@ -1,3 +1,8 @@
+.galery {
+    position: relative;
+    z-index: 1;
+}
+
 .galery__inner {
     margin-top: 115px;
 }
@@ -17,10 +22,6 @@
     margin-top: 70px;    
     position: relative;    
 }
-
-// .galery__slider-inner {
-//     height: 350px;
-// }
 
 .galery__arrow {
     position: absolute;
