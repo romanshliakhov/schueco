@@ -2,10 +2,10 @@
     position: relative;
     width: 30px;
     font-size: 12px;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
-.select__current {    
+.select__current {
     position: relative;
     cursor: pointer;
     transition: all 0.3s;
@@ -15,15 +15,19 @@
         position: absolute;
         background-image: url(../img/icons/arrow-down.svg);
         background-repeat: no-repeat;
+        top: 5px;
+        right: -16px;    
+        fill: #79b51c;
         width: 8px;
-        height: 4px;
-        color: #79b51c;        
+        height: 8px;
+        z-index: 1;
     }
 }
 
+
 .select.is-active .select__body {
     display: block;
-  }
+}
 
 .select__body {
     border-top: 0;
@@ -32,7 +36,6 @@
     position: absolute;
     z-index: 10;
     right: 0;
-    top: 100%;      
-    cursor: pointer;     
+    top: 100%;
+    cursor: pointer;
 }
-

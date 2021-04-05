@@ -59,10 +59,40 @@ a {
   text-decoration: none;
   cursor: pointer;  
   color: #000;
+  background-color: transparent;
 
   &:visited {
     color: inherit;
   }
+}
+
+input {
+  width: 100%;  
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #fff;
 }
 
 .visually-hidden {

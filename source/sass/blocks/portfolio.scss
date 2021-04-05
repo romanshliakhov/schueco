@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;    
-    margin-top: 87px;
+    margin-top: 75px;
 }
 
 .portfolio__box {
@@ -45,6 +45,7 @@
     max-height: 365px;
     margin-right: 18px;
     position: relative;
+    margin-bottom: 10px;
 
     &:last-child {
         max-width: 769px;
@@ -88,5 +89,5 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 45px;
+    margin-top: 38px;
 }

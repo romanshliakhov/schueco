@@ -7,14 +7,14 @@
 }
 
 .catalogue__info {
-    position: absolute;    
+    position: absolute;
     min-width: 650px;
     min-height: 400px;
     background-color: rgba(0,0,0,.65);
     color: #fff;
-    left: 15%;
-    top: 18%;    
-    padding-top: 75px;
+    left: 11%;
+    top: 16%;
+    padding-top: 64px;
     padding-left: 72px;
     text-transform: uppercase;
 }
@@ -30,5 +30,9 @@
     font-size: 30px;
     line-height: 45px;
     font-weight: 300;    
+}
+
+.catalogue__button {
+    margin-top: 43px;
 }
 

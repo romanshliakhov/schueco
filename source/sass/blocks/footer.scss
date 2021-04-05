@@ -5,10 +5,10 @@
 
 .footer__send {
     position: absolute;
-    width: 675px;
-    height: 460px;
+    width: 650px;
+    height: 405px;
     background-color: #000;
-    bottom: 10%;
+    bottom: 6%;
     right: 0;
     padding: 60px 80px;
     color: #fff;
@@ -29,14 +29,15 @@
 
 .footer__form {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .footer__form-input {
-    margin-top: 35px;
+    margin-top: 20px;
     max-width: 300px;
     background: transparent;
-    border-bottom: 1px solid #5b5b5b;;
+    border-bottom: 1px solid #5b5b5b;
+    ;
     font-size: 12px;
     line-height: 40px;
     color: #fff;
@@ -44,16 +45,16 @@
     text-transform: uppercase;
 }
 
-.footer__form-button {   
+.footer__form-button {
     font-size: 12px;
     line-height: 40px;
     font-weight: 600;
-    text-transform: uppercase; 
-    padding: 8px 45px;
+    text-transform: uppercase;
+    padding: 3px 45px;
     display: flex;
-    align-items: center; 
-    max-width: 200px;         
-    
+    align-items: center;
+    max-width: 200px;
+
     svg {
         width: 23px;
         fill: #fff;
@@ -63,11 +64,27 @@
 
 .footer__nav {
     display: flex;
-    padding: 65px 0 80px;
+    padding: 50px 0 70px;
 }
 
 .footer__nav-items {
-    width: 260px;
+    width: 258px;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        border: 1px solid rgba(207, 207, 207, 0.5);
+        height: 150px;
+        right: 16%;
+        top: 8%;     
+    }
+}
+
+.footer__nav-items:last-child {
+    &::before {
+        display: none;
+    }
 }
 
 .footer__nav-title {
@@ -77,20 +94,16 @@
 }
 
 .footer__nav-item {
-    margin-top: 25px;
+    margin-top: 10px;
     line-height: 35px;
 }
 
 .footer__nav-link {
     transition: 0.5s ease;
-    
+
     &:hover {
         color: #79b51c;
     }
-}
-
-.footer__nav-list+.footer__nav-list {
-    margin-top: 10px;
 }
 
 .footer__bottom {
@@ -117,18 +130,18 @@
         content: '';
         position: absolute;
         border: 1px solid #a1c667;
-        height: 46px;
-        left: -20%;
-        transform: rotate(22deg);
+        height: 50px;
+        left: -25%;
+        transform: rotate(30deg);
     }
 
     &::after {
         content: '';
         position: absolute;
         border: 1px solid #a1c667;
-        height: 46px;
-        right: -20%;
-        transform: rotate(22deg);
+        height: 50px;
+        right: -25%;
+        transform: rotate(30deg);
     }
 }
 
