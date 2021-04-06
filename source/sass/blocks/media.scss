@@ -2,7 +2,7 @@
 
     .container {
         width: 1140px;
-    }  
+    }
 
     .content,
     .products,
@@ -25,13 +25,13 @@
     .products__info-reverse {
         margin-right: 30px;
     }
-    
+
     .galery__img {
         height: 295px;
     }
 
-    .galery__image.slick-current + .galery__image {        
-        height: 295px;        
+    .galery__image.slick-current+.galery__image {
+        height: 295px;
     }
 
     .portfolio {
@@ -58,6 +58,125 @@
         width: 980px;
     }
 
+    .descr {
+        max-width: 500px;
+    }
+
+    .content,
+    .products,
+    .galery,
+    .popular {
+        margin-top: 30px;
+    }
+
+    .header__img {
+        width: 130px;
+    }
+
+    .header__item + .header__item {
+        margin-left: 15px;
+    }
+
+    .header__phone {
+        margin-right: 15px;
+    }
+
+    .slider__img {
+        min-height: 500px;
+    }
+
+    .content__box {
+        width: 60%;
+        max-height: 275px;
+        padding: 0;
+        margin-right: 30px;
+    }
+
+    .products__info {
+        justify-content: center;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+
+    .products__info-reverse {
+        margin-right: 20px;
+    }
+
+    .products__title {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .products__link {
+        margin-top: 5px;
+    }
+
+    .galery__slider {
+        margin-top: 50px;
+    }
+
+    .galery__img {
+        height: 295px;
+    }
+
+    .galery__image.slick-current+.galery__image {
+        height: 295px;
+    }
+
+    .catalogue {
+        min-height: 525px;
+        background-size: contain;
+    }
+
+    .catalogue__info {
+        min-width: 600px;
+        min-height: 350px;
+    }
+
+    .popular__slider {
+        margin-top: 60px;
+    }
+
+    .popular__product {
+        min-width: 480px;
+    }
+
+    .popular__product-descr {
+        margin-left: 10px;
+        line-height: 25px;
+    }
+
+    .popular__product-heading {
+        margin-right: 0;
+    }
+
+    .portfolio {
+        margin-bottom: 70px;
+    }
+
+    .portfolio__works {
+        justify-content: center;
+    }
+
+    .footer__send {
+        width: 325px;
+        height: 370px;
+        padding: 30px 25px;
+    }
+
+    .footer__nav-items {
+        max-width: 230px;
+    }
+
+    .footer__adress {
+        &::before {
+            left: -15%;
+        }
+
+        &::after {
+            right: -15%;
+        }
+    }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
