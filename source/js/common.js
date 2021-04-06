@@ -46,7 +46,37 @@ $(function(){
         autoplay: false,
 		slidesToShow: 5,
 		slidesToScroll: 1, 
-		Infinity:false,   
+		Infinity:false, 
+		responsive: [
+			{
+			breakpoint: 1199,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,				
+			  	}
+			},			
+			{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3,				
+				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,				
+				slidesToScroll: 1,							
+				}
+			},
+			{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 1,				
+				slidesToScroll: 1,							
+				}
+			}								
+		]   
     });   
 });
 
@@ -57,6 +87,27 @@ $(function(){
 		speed: 1000,
 		autoplaySpeed: 3000,
 		arrows: false,
-		dots: true                      
+		dots: true,
+		responsive: [
+			{
+			breakpoint: 1199,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,				
+			  	}
+			},
+			{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,				
+				slidesToScroll: 1,			
+				}
+			}								
+		] 
     });   
 });
+
+$(".hamburger").click(function(event) {
+    $(".hamburger").toggleClass('hamburger__active'),
+    $(".mobile__menu ").toggleClass('mobile__menu__active');
+  });

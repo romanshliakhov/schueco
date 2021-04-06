@@ -7,12 +7,18 @@
 .header__inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .header__img {
     width: 175px;
     height: 30px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__item {
@@ -32,12 +38,6 @@
     margin-left: 25px;
 }
 
-.header__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header__phone {
     margin-right: 35px;
 }
@@ -45,5 +45,12 @@
 .header__info {
     display: flex; 
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;  
+    min-width: 220px; 
+}
+
+.mobile__menu-box {
+    display: none;
+    position: relative;
+    margin-bottom: 10px;
 }
