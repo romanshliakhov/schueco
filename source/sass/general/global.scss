@@ -122,8 +122,8 @@ input[type=number] {
 }
 
 .container-fluid {
-  width: 1700px;
-  margin: 0 auto;
+  max-width: 1700px;
+  margin: 0 auto;  
 }
 
 .phone {

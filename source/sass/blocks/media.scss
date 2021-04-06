@@ -1,9 +1,55 @@
-@media (min-width: 1200px) and (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1525px) {
+
     .container {
         width: 1140px;
+    }  
+
+    .content,
+    .products,
+    .galery {
+        margin-top: 60px;
     }
 
+    .content__box {
+        width: 60%;
+        max-height: 275px;
+        padding: 0;
+        margin-right: 30px;
+    }
 
+    .products__info {
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .products__info-reverse {
+        margin-right: 30px;
+    }
+    
+    .galery__img {
+        height: 295px;
+    }
+
+    .galery__image.slick-current + .galery__image {        
+        height: 295px;        
+    }
+
+    .portfolio {
+        margin-bottom: 100px;
+    }
+
+    .portfolio__works {
+        justify-content: center;
+    }
+
+    .footer__send {
+        width: 475px;
+        height: 380px;
+    }
+
+    .footer__nav-items {
+        max-width: 250px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -15,7 +61,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-
     .container {
         width: 750px;
     }
@@ -27,7 +72,7 @@
     .container {
         width: 580px;
     }
-   
+
 }
 
 @media (max-width: 575px) {
