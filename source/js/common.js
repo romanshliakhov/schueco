@@ -66,14 +66,16 @@ $(function(){
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 2,				
-				slidesToScroll: 1,							
+				slidesToScroll: 1,	
+				arrows: false,						
 				}
 			},
 			{
 			breakpoint: 575,
 			settings: {
 				slidesToShow: 1,				
-				slidesToScroll: 1,							
+				slidesToScroll: 1,
+				arrows: false,							
 				}
 			}								
 		]   
@@ -101,6 +103,13 @@ $(function(){
 			settings: {
 				slidesToShow: 1,				
 				slidesToScroll: 1,			
+				}
+			},
+			{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 1,				
+				slidesToScroll: 1,							
 				}
 			}												
 		] 
