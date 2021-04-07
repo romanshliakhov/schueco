@@ -189,8 +189,16 @@
         width: 750px;
     }
 
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
     .descr {
-        max-width: 500px;
+        max-width: 400px;
     }
 
     .content,
@@ -318,11 +326,27 @@
         min-height: 500px;
     }
 
-    .content__box {
-        width: 60%;
+    .content__inner {
+        align-items: inherit;
+    }
+
+    .content__box {        
         max-height: 275px;
         padding: 0;
-        margin-right: 30px;
+        margin-right: 20px;
+    }
+
+    .content__wrapp {
+        max-width: 350px;
+        padding-right: 25px;
+    }
+
+    .content__text {
+        margin-top: 20px;
+    }
+
+    .content__image {
+        max-width: 375px;
     }
 
     .products__info {
