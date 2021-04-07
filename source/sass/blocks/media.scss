@@ -1104,15 +1104,23 @@
     }
 
     .galery__slider {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .galery__arrow {
         display: none;
     }
 
+    .galery__image {
+        max-width: 100%;
+    }
+
     .galery__img {
         height: 295px;
+
+        img {
+            max-height: 100%;
+        }
     }
 
     .galery__image.slick-current+.galery__image {
