@@ -34,7 +34,15 @@ $(function(){
 		prevArrow: '.slider__arrow-prev',        
 		nextArrow: '.slider__arrow-next',        
         autoplay: 3000,
-        fade: true                      
+        fade: true,
+		responsive: [
+			{
+			breakpoint: 768,
+			settings: {					
+				arrows: false,						
+				}
+			}															
+		]		                    
     });   
 });
 
