@@ -17,14 +17,14 @@
                     content: '-';
                     position: absolute;
                     left: 8px;
-                    color: $green;
+                    color: green;
                 }
             }
 
             &:last-child {
                 a,
                 span {
-                    color: $bg;
+                    color: #b0bec5;
                 }
             }
         }
