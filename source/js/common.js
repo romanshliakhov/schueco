@@ -128,3 +128,4 @@ $(".hamburger").click(function(event) {
     $(".hamburger").toggleClass('hamburger__active'),
     $(".mobile__menu ").toggleClass('mobile__menu__active');
   });
+  
