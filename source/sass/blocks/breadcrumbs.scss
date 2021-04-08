@@ -1,0 +1,36 @@
+.breadcrumbs {
+    &__inner {
+        overflow: hidden;
+        width: 1200px;
+        padding: 45px 0px 40px;
+    }
+
+    &__list {
+        li {
+            display: inline-block;
+            position: relative;
+
+            &+li {
+                padding-left: 24px;
+
+                &::before {
+                    content: '-';
+                    position: absolute;
+                    left: 8px;
+                    color: $green;
+                }
+            }
+
+            &:last-child {
+                a,
+                span {
+                    color: $bg;
+                }
+            }
+        }
+
+        a {
+            color: #b0bec5;
+        }
+    }
+}
