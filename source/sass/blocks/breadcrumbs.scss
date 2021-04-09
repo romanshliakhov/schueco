@@ -1,36 +1,42 @@
 .breadcrumbs {
-    &__inner {
-        overflow: hidden;
-        width: 1200px;
-        padding: 45px 0px 40px;
-    }
+    background-image: url(../img/background/breadcrumbs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+}
 
-    &__list {
-        li {
-            display: inline-block;
-            position: relative;
+.breadcrumbs__list {
+    font-size: 11px;
+    line-height: 40px;        
+    color: #fff;
+    text-transform: uppercase;   
+}
 
-            &+li {
-                padding-left: 24px;
+.breadcrumbs__item {
+    display: inline-block;
+    position: relative;
 
-                &::before {
-                    content: '-';
-                    position: absolute;
-                    left: 8px;
-                    color: #000;
-                }
-            }
+    &+li {
+        padding-left: 24px;
 
-            &:last-child {
-                a,
-                span {
-                    color: #b0bec5;
-                }
-            }
+        &::before {
+            content: '/';
+            position: absolute;
+            left: 8px;
+            color: #fff;
         }
+    }     
+}
 
-        a {
-            color: #b0bec5;
-        }
-    }
+.breadcrumbs__link {
+    text-decoration: underline;
+}
+
+.breadcrumbs__title {
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
 }
