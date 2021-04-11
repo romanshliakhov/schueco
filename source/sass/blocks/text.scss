@@ -12,3 +12,26 @@
 .text__block {
     margin-top: 30px;
 }
+
+.text__list {
+    margin: 70px 0;
+}
+
+.text__item {
+    margin-left: 48px;
+    position: relative;    
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        border: 1px solid #79b51c;
+        top: 13px;
+        left: -4%;
+    }
+
+    &+li {
+        margin-top: 40px;
+    }
+}
+
