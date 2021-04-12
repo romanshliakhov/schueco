@@ -1,8 +1,20 @@
-.news {
-    margin-top: 50px;
+.news {    
     margin-bottom: 120px;
 }
 
 .news__inner {
     position: relative;
+}
+
+.news__top {
+    height: 80px;
+    display: flex;
+    align-items: center;    
+}
+
+.news__title {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
