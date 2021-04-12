@@ -1,34 +1,146 @@
 .faq {
-    margin: 50px 0 100px;
+    margin: 30px 0 120px;
 }
 
 .faq__inner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .faq__block {
+    max-width: 835px;
+}
 
+.faq__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 180px;
+    border-bottom: 1px solid #c0c0c0;
 }
 
 .faq__top {
-    display: flex;    
-    
+    display: flex;
+    margin-bottom: 15px;
 }
 
 .faq__bot {
-    display: flex;   
-    
+    display: flex;
+    align-items: baseline;
 }
 
 .faq__task {
     min-width: 80px;
-    margin-right: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
 }
 
 .faq__reply {
     min-width: 80px;
-    margin-right: 15px;
-    
-    
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
 }
+
+.faq__quest {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #79b51c;
+    border-bottom: 1px solid #79b51c;
+}
+
+.faq__answer {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.faq__aside {
+    max-width: 300px;
+    margin-top: 25px;
+}
+
+.faq__aside-title {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.faq__aside-shedule {
+    font-size: 15px;
+    line-height: 40px;
+    color: #5b5b5b;
+    margin-bottom: 30px;
+}
+
+.faq__form-input {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-color: #e6e6e6;   
+    font-size: 12px;
+    line-height: 40px;
+    color: #5a5a5a;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.faq__form-textarea {
+    height: 150px;
+    width: 100%;
+    padding-left: 20px;
+    background-color: #e6e6e6;
+    font-size: 12px;
+    line-height: 40px;
+    color: #5a5a5a;
+    font-weight: 600; 
+    text-transform: uppercase;
+    resize: none;
+}
+
+.faq__form-button {
+    display: flex;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 45px;
+    align-items: center;
+    max-width: 200px;
+    margin-top: 30px;
+
+    svg {
+        width: 23px;
+        fill: #fff;
+        margin-left: 15px;
+    }
+
+}
+
+.faq__form-input::-webkit-input-placeholder,
+.faq__form-textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #5a5a5a;
+}
+
+.faq__form-input:-moz-placeholder,
+.faq__form-textarea::-webkit-input-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #000;
+}
+
+.faq__form-input::-moz-placeholder,
+.faq__form-textarea::-webkit-input-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #000;
+}
+
+.faq__form-input:-ms-input-placeholder,
+.faq__form-textarea::-webkit-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #000;
+}
+

@@ -85,22 +85,22 @@ input[type=number] {
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #000;
+  color: #fff;
 }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #000;
+  color: #fff;
 }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #000;
+  color: #fff;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #000;
+  color: #fff;
 }
 
 .visually-hidden {
