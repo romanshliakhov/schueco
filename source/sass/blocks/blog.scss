@@ -1,0 +1,31 @@
+.blog {
+    margin: 50px 0 150px;
+}
+
+.blog__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.blog__info {
+    justify-content: center;
+    padding-top: 0;
+    &:hover {
+        .blog__title {
+            background-color: #fff;
+        }      
+    }
+}
+
+.blog__title { 
+    justify-content: start;
+    width: inherit;   
+    margin: 0;
+    background-color: #fff;  
+}
+
+.blog__title-link {
+    color: #000;
+    margin-right: 0;
+}
