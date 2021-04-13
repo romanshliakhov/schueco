@@ -126,7 +126,7 @@ $(".hamburger").click(function(event) {
 });
   
 
-$('.product__info-title').click(function(){
+$('.product__info-header').click(function(){
 	const parent = $(this).parent();
 
 	if(parent.hasClass('product__info-item--active')) {
@@ -139,26 +139,20 @@ $('.product__info-title').click(function(){
 
 $(function(){
     $('.product__slider-inner').slick({
-		arrows: false,
-        autoplay: 3000,        
-        asNavFor: '.product__slider-preview',   
-        responsive: [
-            {
-                breakpoint: 960,
-                settings: {
-                    arrows: false,
-                    autoplay: 1000,
-                }
-            }
-        ]                    
+		arrows: false,         		      
+        asNavFor: '.product__slider-preview',  
+		slidesToShow: 1,
+  		slidesToScroll: 1, 
+				                      
     }); 
 
     $('.product__slider-preview').slick({
         arrows: false,  
-        slidesToShow: 4, 
-        slidesToScroll: 1,  
+        slidesToShow: 4,          
         asNavFor: '.product__slider-inner',    
         focusOnSelect: true,           
-        variableWidth: true,                
+        variableWidth: true,
+		infinite: true,	 
+		          
     });     
 });
