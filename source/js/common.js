@@ -1,9 +1,5 @@
-//  custom-select
-// переменная не переназначается, поэтому используем const
-// используем querySelectorAll, чтобы собрать массив со всеми сущностями .select
 const select = document.querySelectorAll('.select');
 
-// если массив не пустой, пробегаемся в цикле по каждой найденой сущности
 if (select.length) {
 	select.forEach(item => {
 		// достаем из текущей сущности .select__current
@@ -127,5 +123,42 @@ $(function(){
 $(".hamburger").click(function(event) {
     $(".hamburger").toggleClass('hamburger__active'),
     $(".mobile__menu ").toggleClass('mobile__menu__active');
-  });
+});
   
+
+$('.product__info-title').click(function(){
+	const parent = $(this).parent();
+
+	if(parent.hasClass('product__info-item--active')) {
+		parent.removeClass('product__info-item--active');
+	} else {
+		$('.product__info-item').removeClass('product__info-item--active')
+		parent.addClass('product__info-item--active');
+	}	
+});
+
+$(function(){
+    $('.product__slider-inner').slick({
+		arrows: false,
+        autoplay: 3000,        
+        asNavFor: '.product__slider-preview',   
+        responsive: [
+            {
+                breakpoint: 960,
+                settings: {
+                    arrows: false,
+                    autoplay: 1000,
+                }
+            }
+        ]                    
+    }); 
+
+    $('.product__slider-preview').slick({
+        arrows: false,  
+        slidesToShow: 4, 
+        slidesToScroll: 1,  
+        asNavFor: '.product__slider-inner',    
+        focusOnSelect: true,           
+        variableWidth: true,                
+    });     
+});
