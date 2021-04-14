@@ -25,12 +25,12 @@
 .category__filter--active {
 
     .category__filter-arrow {
-        transform: rotate(-180deg);       
+        transform: rotate(-180deg);
     }
 
     .category__filter-checkbox {
         display: inline-block;
-        
+
     }
 }
 
@@ -49,27 +49,28 @@
 }
 
 .category__filter-checkbox {
-    display: none;    
+    display: none;
     padding-top: 20px;
 }
 
 .category__filter-box {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
 .category__label {
-    display: flex;        
-    align-items: center;  
+    display: flex;
+    align-items: center;
 }
 
 .category__checkbox {
     width: 40px;
+    height: 15px;
 }
 
 .category__label-text {
     font-size: 15px;
-    line-height: 25px;    
+    line-height: 25px;
 }
 
 .category__filter-arrow {
@@ -99,54 +100,44 @@
 }
 
 .category__products {
-    max-width: 860px;   
+    max-width: 860px;
 }
 
 .category__products-inner {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .category__product-item {
     display: flex;
-    flex-direction: column;    
-    max-width: 225px;
-    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    min-width: 260px;
+    margin-bottom: 50px;   
 
-    .popular__product-name {
-        font-size: 17px;
-    }
+   
+    
 
-    .popular__product-image {
-        display: inline-block;
-        padding: 20px 0;
-        position: relative;
+    
+}
 
-        &::before {
-            content: '';
-            position: relative;
-            left: -5px;
-            height: 200px;
-            width: 200px;
-            border: 1px solid #888888;
-        }
-     
-    }
+.category__product-name {
+    font-size: 17px;
+}
 
-    .popular__product-img {
-        padding: 5px;      
-    }
+.category__product-image {
+    display: inline-block;
+    padding: 20px 25px;
+    position: relative;
+    border: 1px solid #f2f2f2;
+    margin: 10px;
+}   
 
-    .popular__product-descr {
-        margin-left: 0;
-    }
+.category__product-descr {
+    margin-left: 0;
+}
 
-    .popular__product-heading {
-        display: block;
-    }
-
-    .popular__product-link {
-        padding-top: 20px;
-    }
+.category__product-heading {
+    display: block;
 }
