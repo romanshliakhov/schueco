@@ -13,25 +13,140 @@
 .category__filter {
     display: flex;
     flex-direction: column;
-    
+    border-bottom: 1px solid #e2e3e5;
+    padding-bottom: 30px;
+    margin-top: 30px;
+
+    &:first-child {
+        margin-top: 0;
+    }
 }
+
+.category__filter--active {
+
+    .category__filter-arrow {
+        transform: rotate(-180deg);       
+    }
+
+    .category__filter-checkbox {
+        display: inline-block;
+        
+    }
+}
+
 .category__filter-header {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 .category__filter-title {
-    font-size: 16px;    
+    font-size: 16px;
     font-weight: 700;
     color: #081225;
     text-transform: uppercase;
-    margin-right: 10px;    
+    margin-right: 10px;
+}
+
+.category__filter-checkbox {
+    display: none;    
+    padding-top: 20px;
+}
+
+.category__filter-box {
+    display: flex;
+    align-items: center;    
+}
+
+.category__label {
+    display: flex;        
+    align-items: center;  
+}
+
+.category__checkbox {
+    width: 40px;
+}
+
+.category__label-text {
+    font-size: 15px;
+    line-height: 25px;    
 }
 
 .category__filter-arrow {
     width: 14px;
 }
 
+.cateagory__btn {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.category__btn-choose {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-right: 18px;
+}
+
+.category__btn-cancel {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    fill: #888888;
+}
+
 .category__products {
-    min-width: 890px;
+    max-width: 860px;   
+}
+
+.category__products-inner {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+}
+
+.category__product-item {
+    display: flex;
+    flex-direction: column;    
+    max-width: 225px;
+    margin-bottom: 50px;
+
+    .popular__product-name {
+        font-size: 17px;
+    }
+
+    .popular__product-image {
+        display: inline-block;
+        padding: 20px 0;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: relative;
+            left: -5px;
+            height: 200px;
+            width: 200px;
+            border: 1px solid #888888;
+        }
+     
+    }
+
+    .popular__product-img {
+        padding: 5px;      
+    }
+
+    .popular__product-descr {
+        margin-left: 0;
+    }
+
+    .popular__product-heading {
+        display: block;
+    }
+
+    .popular__product-link {
+        padding-top: 20px;
+    }
 }

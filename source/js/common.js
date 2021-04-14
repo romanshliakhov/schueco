@@ -156,3 +156,8 @@ $(function(){
 		          
     });     
 });
+
+
+$('.category__filter-header').click(function(){
+	$(this).parent().toggleClass('category__filter--active');	
+});
