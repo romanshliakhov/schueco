@@ -48,7 +48,11 @@
     line-height: 25px;
     font-weight: 700;
     color: #79b51c;
-    border-bottom: 1px solid #79b51c;
+    text-decoration: underline;
+
+    &:hover {
+        color: #5a5a5a;        
+    }
 }
 
 .faq__answer {
@@ -57,7 +61,7 @@
 }
 
 .faq__aside {
-    max-width: 300px;
+    min-width: 300px;
     margin-top: 25px;
 }
 
@@ -75,12 +79,16 @@
     margin-bottom: 30px;
 }
 
+.faq__form {
+    max-width: 300px;
+}
+
 .faq__form-input {
     height: 50px;
     width: 100%;
     margin-bottom: 10px;
     padding-left: 20px;
-    background-color: #e6e6e6;   
+    background-color: #e6e6e6;
     font-size: 12px;
     line-height: 40px;
     color: #5a5a5a;
@@ -96,7 +104,7 @@
     font-size: 12px;
     line-height: 40px;
     color: #5a5a5a;
-    font-weight: 600; 
+    font-weight: 600;
     text-transform: uppercase;
     resize: none;
 }
@@ -143,4 +151,3 @@
     /* Internet Explorer 10+ */
     color: #000;
 }
-

@@ -5,6 +5,7 @@
 .contacts__inner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .contacts__map {
@@ -14,10 +15,13 @@
 }
 
 .contacts__info {
-    padding-left: 80px;
+    width: 33%;
+    text-align: left;
+    padding: 0 20px;
 }
 
 .contacts__item {
+    max-width: 187px;
     font-size: 14px;
     line-height: 21px;
     color: #313236;
