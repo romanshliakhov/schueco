@@ -47,6 +47,14 @@
 
     // main page end
 
+    // about page start
+
+    .about__image {
+        width: 45%;
+    }
+
+    // about page end
+
     // faq page start
 
     .faq__item {
@@ -189,9 +197,32 @@
 
     // about page start
 
+    .about__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__image {
+        position: inherit;
+    }
+
+    .about__top {
+        max-width: 100%;
+    }
 
 
     // about page end
+
+    // news page start
+
+    .news__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // news page end  
 
     // faq page start
 
@@ -528,12 +559,26 @@
         min-width: 100%;
     }
 
-    // main page end
+    // main page end  
 
     // about page start
 
     .about {
         margin-bottom: 70px;
+    }
+
+    .about__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__image {
+        position: inherit;       
+    }
+
+    .about__top {
+        max-width: 100%;
     }
 
     .text {
@@ -549,6 +594,25 @@
     }
 
     // about page end   
+
+    // news page start
+
+    .news {
+        margin-bottom: 65px;
+    }
+
+    .news__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .news__title {
+        font-size: 21px;
+    }
+
+    // news page end 
 
     // faq page start
     .faq {
@@ -572,15 +636,7 @@
         margin: 30px 0 40px;
     }
 
-    // blog page end    
-
-    // news page start
-
-    .news {
-        margin-bottom: 65px;
-    }
-
-    // news page end   
+    // blog page end     
 
     // product page start
 
@@ -998,6 +1054,12 @@
         margin-bottom: 70px;
     }
 
+    .about__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .about__images {
         flex-direction: column;
         align-items: inherit;
@@ -1005,6 +1067,15 @@
 
     .about__item {
         margin-right: 0;
+    }
+
+    .about__image {
+        position: inherit;
+        height: 370px;
+    }
+
+    .about__top {
+        max-width: 100%;
     }
 
     .text {
@@ -1020,6 +1091,24 @@
     }
 
     // about page end 
+
+    // news page start
+
+    .news {
+        margin-bottom: 65px;
+    }
+
+    .news__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news__title {
+        font-size: 16px;
+    }
+
+    // news page end 
 
     // contacts page start
 
@@ -1099,7 +1188,7 @@
         margin: 20px 0 50px;
     }
 
-    .category__filters {        
+    .category__filters {
         margin-bottom: 35px;
         display: flex;
         flex-flow: row wrap;
@@ -1116,10 +1205,10 @@
     .category__filter-title {
         font-size: 13px;
     }
-    
+
     .category__filter-checkbox {
         padding-top: 5px;
-    }  
+    }
 
     .category__checkbox {
         width: 20px;
@@ -1624,6 +1713,12 @@
         margin-bottom: 70px;
     }
 
+    .about__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .about__images {
         flex-direction: column;
         align-items: inherit;
@@ -1631,6 +1726,15 @@
 
     .about__item {
         margin-right: 0;
+    }
+
+    .about__image {
+        position: inherit;
+        height: 340px;
+    }
+
+    .about__top {
+        max-width: 100%;
     }
 
     .text {
@@ -1646,6 +1750,25 @@
     }
 
     // about page end 
+
+    // news page start
+
+    .news {
+        margin-bottom: 65px;
+    }
+
+    .news__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news__title {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    // news page end 
 
     // contacts page start
 
@@ -1743,9 +1866,9 @@
 
     // product page end
 
-     // category page start
+    // category page start
 
-     .category {
+    .category {
         .pagination {
             display: flex;
             justify-content: center;
@@ -1757,7 +1880,7 @@
         margin: 20px 0 50px;
     }
 
-    .category__filters {        
+    .category__filters {
         margin-bottom: 35px;
         display: flex;
         flex-flow: row wrap;
@@ -1774,10 +1897,10 @@
     .category__filter-title {
         font-size: 13px;
     }
-    
+
     .category__filter-checkbox {
         padding-top: 5px;
-    }  
+    }
 
     .category__checkbox {
         width: 20px;
