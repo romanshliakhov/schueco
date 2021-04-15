@@ -142,18 +142,18 @@ $(function(){
 		arrows: false,         		      
         asNavFor: '.product__slider-preview',  
 		slidesToShow: 1,
-  		slidesToScroll: 1, 
-				                      
+  		slidesToScroll: 1, 				                      
     }); 
+});
 
+$(function(){
     $('.product__slider-preview').slick({
         arrows: false,  
         slidesToShow: 4,          
         asNavFor: '.product__slider-inner',    
         focusOnSelect: true,           
         variableWidth: true,
-		infinite: true,	 
-		          
+		infinite: true,	         
     });     
 });
 

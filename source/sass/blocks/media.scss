@@ -47,12 +47,6 @@
 
     // main page end
 
-    // about page start
-
-
-
-    // about page end
-
     // faq page start
 
     .faq__item {
@@ -211,6 +205,28 @@
     }
 
     // faq page end
+
+    // product page start
+
+    .product__slider {
+        max-width: 500px;
+    }
+
+    .product__slider-inner {
+        margin-bottom: 0;
+    }
+
+    .product__preview-item {
+        margin-right: 10px;
+    }
+
+    .product__info {
+        width: 45%;
+    }
+
+
+
+    // product page end
 
     .footer__send {
         width: 325px;
@@ -555,6 +571,28 @@
     }
 
     // news page end   
+
+    // product page start
+
+    .product__inner {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .product__info {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product__info-header {
+        justify-content: center;
+    }
+
+    // product page end
 
     .pagination {
         margin-top: 20px;
@@ -990,6 +1028,28 @@
     }
 
     // blog page end 
+
+    // product page start
+
+    .product__inner {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .product__info {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product__info-header {
+        justify-content: center;
+    }
+
+    // product page end
 
     .pagination {
         margin-top: 20px;
@@ -1546,6 +1606,48 @@
     }
 
     // blog page end 
+
+    // product page start
+
+    .product__inner {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .product__slider {
+        max-width: 315px;
+    }
+
+    .product__slider-item {
+        min-height: 340px;
+    }
+
+    .product__slider-inner {
+        margin-bottom: 0;
+    }
+    
+    .product__slider-preview {
+        display: none;
+    }
+
+    .product__info {        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product__info-header {
+        justify-content: center;
+    }
+
+    .product__info-title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    // product page end
 
     .pagination {
         margin-top: 30px;
